@@ -1,0 +1,149 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: auto;
+	padding: 0px;
+	display: block;
+	
+	height: 600px;
+	border-left: solid #14213D 1px;
+	border-right: solid #14213D 1px;
+}
+
+.contenedor__encabezado {
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contenedor__encabezado-datos {
+	height: 150px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contenedor__datos {
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.encabezado__logo {
+	width: 50%;
+	margin: auto;
+}
+
+.contenedor__botones {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	height: 150px;
+}
+
+.boton {
+	height: 100%;
+	width: 100%;
+	background-color: #14213D;
+	color: #FCA311;
+	border: none;
+	font-size: 2em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.boton:hover {
+	cursor: pointer;
+	background-color: #233A6C;
+}
+
+.boton-left {
+	text-align: left;
+	grid-column: 1;
+}
+
+.boton-superior {
+	grid-row: 1;
+}
+
+.boton-right {
+	text-align: right;
+	grid-column: 4;
+}
+
+.boton-inferior {
+
+	grid-row: 3;
+}
+
+
+.contenedor__numeros {
+	grid-column: 2/4;
+	grid-row: 1/4;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 100px;
+	padding-right: 100px;
+	box-sizing: border-box;
+}
+
+.boton-numero {
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contenedor-datos__label {
+	width: 100%;
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+.contenedor-datos__texto {
+	width: 300px;
+	height: 40px;
+	display: block;
+	font-size: 1.8em;
+	margin: auto;
+	text-align: center;
+	border: none;
+	border-bottom: solid 1px #14213D;
+	background-color: #fcfcfc;
+}
+
+.contenedor-datos__texto:focus {
+	border: none;
+	outline: none;
+}
+
+
+.contenedor-cash {
+	padding-top: 20px;
+	grid-column: 2/4;
+	grid-row: 1/4;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 3fr 1fr;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 1.8em;
+}
+
+.div-left {
+	text-align: left;
+}
+
+.div-right {
+	text-align: right;
+}
+
+
